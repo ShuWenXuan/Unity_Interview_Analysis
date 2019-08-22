@@ -1,0 +1,23 @@
+Dotween.To（）通过计算让数值从一个渐变得变化到b
+
+public Vector3 myValue = new Vector3（0,0,0）;定义一个myValue
+
+void Start（）{
+
+        DOTween.To（（）=> myValue，x => myValue = x，new Vector3（10,10,10），2）;
+
+    }
+
+4个参数
+
+前两个参数固定写法，变量需要修改就修改就行了，
+
+第三个是需要到达的值。
+
+最后一个是过程需要多少时间
+
+
+[参考资料]
+原文链接：https://blog.csdn.net/weixin_42374647/article/details/83386353
+
+DoTween可以实现3D物体的渐变,同样是使用DoFade()方法
