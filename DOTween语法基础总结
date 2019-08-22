@@ -21,3 +21,8 @@ void Start（）{
 原文链接：https://blog.csdn.net/weixin_42374647/article/details/83386353
 
 DoTween可以实现3D物体的渐变,同样是使用DoFade()方法
+
+
+a.ToString("0.#");//保留一位小数(如果小数有效就保留,如果是1.0,保留1)
+a.ToString("0.##");//保留两位小数(同理)
+a.ToString("0");//保留整数(四舍五入)
